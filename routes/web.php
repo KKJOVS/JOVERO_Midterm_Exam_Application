@@ -2,5 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AnimeController;
 
-Route::get('/products', [ProductController::class, 'index']);
+Route::get('/', [ProductController::class, 'show']);
